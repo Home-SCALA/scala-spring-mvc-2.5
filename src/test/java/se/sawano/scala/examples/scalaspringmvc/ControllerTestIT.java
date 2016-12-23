@@ -26,7 +26,7 @@ public class ControllerTestIT {
     @Before
     public void setUp() {
         restTemplate = new RestTemplate();
-        baseUrl = "http://localhost:9090/scala-spring-mvc/";
+        baseUrl = "http://localhost:9090/scala-spring-mvc-2.5/";
     }
 
     @Test

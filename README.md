@@ -19,4 +19,4 @@ http://software.sawano.se/2012/05/scala-spring-mvc-true-part-3.html
 * **plugin** >> **org.apache.maven.plugins** >> **maven-compiler-plugin**
 * **plugin** >> **org.scala-tools** >> **maven-scala-plugin** >> version: **2.9.1**
 * **repository** >> http://scala-tools.org/repo-releases || **pluginRepository** >> http://scala-tools.org/repo-releases
-* Jetty ( http://localhost:9090 )
+* Jetty ( http://localhost:9090/scala-spring-mvc-2.5/ )
