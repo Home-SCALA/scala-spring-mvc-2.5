@@ -27,6 +27,7 @@ http://software.sawano.se/2012/05/scala-spring-mvc-true-part-3.html
 * `Scala + Spring MVC = True?` [software.sawano.se/2012/04/scala-spring-mvc-true](http://software.sawano.se/2012/04/scala-spring-mvc-true.html)
 * `Scala controller` [se.sawano.scala.examples.scalaspringmvc.ScalaController](src/main/scala/se/sawano/scala/examples/scalaspringmvc/ScalaController.scala)
 * `Spec Test` [se.sawano.scala.examples.scalaspringmvc.ScalaControllerSpecTest](src/test/scala/se/sawano/scala/examples/scalaspringmvc/ScalaControllerSpecTest.scala)
+* `деплой:` [http://localhost:8080/scala-spring-mvc/](http://localhost:8080/scala-spring-mvc/) **|** Tomcat-7
 
 
   /**
