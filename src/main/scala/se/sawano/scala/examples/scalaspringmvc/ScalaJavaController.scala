@@ -26,8 +26,6 @@ import org.slf4j.LoggerFactory
 
 /**
  * Scala controller using Java classes.
- *
- * @author Daniel Sawano
  */
 @RequestMapping(Array("/scalajava"))
 @Controller

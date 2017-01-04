@@ -20,3 +20,50 @@ http://software.sawano.se/2012/05/scala-spring-mvc-true-part-3.html
 * **plugin** >> **org.scala-tools** >> **maven-scala-plugin** >> version: **2.9.1**
 * **repository** >> http://scala-tools.org/repo-releases || **pluginRepository** >> http://scala-tools.org/repo-releases
 * Jetty ( http://localhost:9090/scala-spring-mvc-2.5/ )
+
+
+-----------------------------
+
+* `Scala + Spring MVC = True?` [software.sawano.se/2012/04/scala-spring-mvc-true](http://software.sawano.se/2012/04/scala-spring-mvc-true.html)
+* `Scala controller` [se.sawano.scala.examples.scalaspringmvc.ScalaController](src/main/scala/se/sawano/scala/examples/scalaspringmvc/ScalaController.scala)
+* `Spec Test` [se.sawano.scala.examples.scalaspringmvc.ScalaControllerSpecTest](src/test/scala/se/sawano/scala/examples/scalaspringmvc/ScalaControllerSpecTest.scala)
+
+
+  /**
+   *    URL: http://localhost:8080/scala-spring-mvc/scala/ping
+   * method: GET
+   * @return Status: 200 OK | Text: pong
+   */
+
+  /**
+   *    URL: http://localhost:8080/scala-spring-mvc/scala/echo?name=Alex
+   * method: GET
+   * @return Status: 200 OK | Text: { "name": "Alex", "weekDay": "ср" }
+   */
+
+  /**
+   *    URL: http://localhost:8080/scala-spring-mvc/scala/indata
+   * method: POST
+   *   body: { "name": "Alex", "age": 23 }
+   * @return Status: 200 OK || DEBUG: se.sawano.scala.examples.scalaspringmvc.ScalaController - Got valid POSTed data: ScalaIndata(Alex,23)
+   */
+
+  /**
+   *    URL: http://localhost:8080/scala-spring-mvc/scala/indataannotated
+   * method: POST
+   *   body: { "name": "Alex", "age": 23 }
+   * @return Status: 200 OK || DEBUG: se.sawano.scala.examples.scalaspringmvc.ScalaController - Got valid POSTed data: ScalaIndataAnnotated(Alex,23)
+   */
+
+=============================
+
+  /**
+   * Calling ScalaController.ping should
+   * return pong
+   */
+
+  /**
+   * Calling ScalController.echo should
+   * return echo name and week day
+   * DEBUG: se.sawano.scala.examples.scalaspringmvc.ScalaControllerSpecTest - ScalEcho was: ScalaEcho(Daniel,ср)
+   */
